@@ -1,0 +1,17 @@
+1. Machine Language
+Maşın dili kompüter tərəfindən birbaşa icra edilən dildir. Hər əməliyyat xüsusi bir tapşırıq yerinə yetirir. Maşın dili ən aşağı səviyyəli proqramlaşdırma dilidir. Əgər proqramı birbaşa bu dildə yazsaydıq, bu çox sıxıcı və çoxlu errorlarla olardı. Hal hazırda yazılan bütün proqramlar daha yüksək səviyyəli proqramlaşdırma dillərində yazılır. Bu yazılanları interpreterlər, kompaylerlər, assemblerlər və linkerlər maşın dilinə çevirir.
+
+2. Assembly Language
+Assembler aşağı səviyyəli proqramlaşdırma dillərindəndir. Əsasən mikroprosessorlarla işləmək üçün istifadə edilir, amma prosessoru olan istənilən proqramlaşdırıla bilən cihazda istifadə etmək mümkündür. Maşın dili ilə birəbir uyumludur. Xüsusi bir kompüter quruluşuna malikdir. Proqram daha sürətli açılır və az yer tutur. Optimizasiyası yaxşıdır. Kompüterin hardware-inə birbaşa access edə bilir.
+
+3. Cobol
+60-cı illərin əvvəllərində Amerikanın Müdafiə Nazirliyi tərəfindən yaradılmışdır. Maliyyə işlərində, sığorta, bank, hökümət və s.-də istifadə olunur. Mainframe proqramlaşdırmada və hesabatların hazırlanmasında da istifadə olunur. SQL-i dəstəkləyir.
+
+4. C Language
+Yüksək səviyyəli proqramlaşdırma dillərindəndir. Burda yazılan kodun kompilyasiyaya ehtiyacı var. Bu dil Desktopdakı istənilən software-i düzəltmək üçün işlədilə bilər. Demək olar ki, bütün elektronik cihazlarda istifadə oluna bilər.
+
+5. C# Language
+C proqramlaşdırma dilləri ailəsinə məxsusdur. Obyektyönümlü proqramlaşdırma dilidir və C++ ilə bəzi cəhətlərdən oxşardır. Sadə, güclü, ümumi məqsədli dildir. Kod stili C++ və Java ilə çox oxşar olduğundan, bu dilləri bilənlər C#-ı rahatlıqla qavraya bilir.
+
+6. Ruby
+Perl və Python dillərinə alternativ olaraq yaradıldı. Klasslardan əlavə, Ruby-də modullar var. Çox dinamik rproqramlaşdırma dilirdir. Kompayl olunmağa ehtiyacı yoxdur. O qədər obyektyönümlüdür ki, hətta klasslar, modullar və metodların özləri də obyektdir.

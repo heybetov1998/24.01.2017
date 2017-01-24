@@ -1,0 +1,76 @@
+===============
+ 1. DƏYİŞƏNLƏR
+===============
+Hər bir proqramda məlumatlar yadda saxlanmalıdır. Proqramlaşdırmada hər hansısa
+bir məlumatı qəbul etmək, saxlamaq üçün dəyişənlərdən istifadə olunur. Hər bir
+ad, ayrı bir saxlama sahəsidir dəyişənlərdə. Bu adı biz özümüz qoyuruq.
+
+===========================================
+ 2. ƏN ÇOX İSTİFADƏ OLUNAN MƏLUMAT NÖVLƏRİ
+===========================================
+1. String
+Bir və daha artıq characterdən ibarət bir tipdir. Bu character-lərə hərflər,
+rəqəmlər və s. başqaları daxildir. String sadəcə düz yazı tipi deyil, o,
+alfanumerik məlumat tipidir. Bu o deməkdir ki, stringin içində çoxlu müxtəlif
+characterlər ola bilər, amma tekst kimi algılana bilər. <Boşluq> da bu
+characterlərə aiddir. Bir sözdən çox məlumatı string ilə mənimsətmək üçün onları
+dırnaq işarəsi daxilində yazırıq. Dırnaqlar vasitəsilə rəqəmləri string kimi
+mənimsətmək olar.
+
+2. Integer
+Yalnız tam ədədləri özündə cəmləşdirən məlumat tipidir. Yazılan ədədin
+uzunluğuna görə yaddaşda tutduğu yer də dəyişir. Short Integer və Long Integer
+yan tipləri də var. Short Integer 16 bit, Long Integer 32 bit yer tutur.
+
+3. Decimal / Float / Double
+Onluq ədədləri özündə əks etdirən məlumat tipləridir. Hansı proqramlaşdırma
+dilini istifadə etməyimizdən asılı olaraq adları dəyişir.
+
+4. Boolean
+Bu tip ancaq iki qiyməti, dəyəri özündə əks etdirə bilər: Düz və ya Səhv
+(1 və ya 0, Var və ya Yox). Məsələn: x=8, y=7 olduqda x<y mülahizəsi Səhv
+(0, Yox) sayılır və proqram ekrana False çıxarır.
+
+5. Char
+String tipi kimidir. Lakin fərqi ondadır ki, char yalnız müəyyən həddə qədər
+özündə character cəmləyir.
+
+=======================
+ 3. RİYAZİ OPERATORLAR
+=======================
+Riyazi operatorlar hər hansı dəyərə sahib ədədlər (operandlar) ilə işləmək üçün
+istifadə edilir. Standart riyazi operatorlar toplama (+), çıxma (-), vurma (*),
+bölmə (/) və qalıqdır (%). Bunlardan əlavə qüvvətə yüksəltmə, inkrement,
+dekrement və s. var.
+
+========================
+ 4. MƏNTİQ OPERATORLARI
+========================
+Məntiqi operatorlara və, və ya, yox aiddir.
+
+&& - və
+|| - və ya
+!  - yox
+
+Məsələn,
+
+1 && 0 = 0
+Burada ikisinin də olması vacibdir ki, doğruluq təsdiqlənsin.
+
+1 || 0 = 1
+Burada yalnız birinin olması kifayətdir ki, doğruluq təsdiqlənsin.
+
+!(1 && 0) = 1
+Burada, hər hansı bir mülahizənin inkarından söhbət gedir. Doğruluq
+təsdiqlənsə, bu operator o doğruluğu inkar edəcək.
+
+======================
+ 5. ŞƏRT OPERATORLARI
+======================
+Şərt operatorları əgər fikri doğrudursa, bir kod blokunun içindəki əməliyyatı
+yerinə yetirir. Əgər yanlışdırsa, başqa bir kod bloku yerinə yetirilir.
+Aşağıdakı şərt operatorları var:
+1. if
+2. else
+3. else if
+4. switch
